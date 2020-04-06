@@ -1,0 +1,30 @@
+.main{
+    border: 5px solid black;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    background-color: white;
+    position: relative;
+}
+.red{
+    background-color: red;
+    width: 50%;
+    height: 50%;
+    position: relative;
+}
+.blue{
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 50%;
+}
+.green{
+    background-color: green;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    z-index: 1;
+}

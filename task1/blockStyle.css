@@ -1,0 +1,45 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body {
+    height: 100vh;
+}
+.main-block {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.block {
+    display: flex;
+    justify-content: space-between;
+}
+.block.header {
+    height: 8%;
+}
+.block.content {
+    height: 43%;
+}
+.block.little-content {
+    height: 25%;
+}
+.block.footer {
+    height: 15%;
+}
+.block.header div {
+    background-color: orange;
+    width: 49%;
+}
+.block.content div {
+    background-color: yellow;
+    width: 100%;
+}
+.block.little-content div {
+    background-color: blue;
+    width: 32%;
+}
+.block.footer div {
+    background-color: grey;
+    width: 24%;
+}
